@@ -1,6 +1,6 @@
 # Jable-91porn-Download
 
-## 可以下載 Jable 和 91porn 的影片
+## 可以下載 Jable 和 91porn(m3u8) 的影片
 
 ### vitual env
 ```
