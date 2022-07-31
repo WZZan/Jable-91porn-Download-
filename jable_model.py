@@ -52,8 +52,7 @@ for x in range(0,len(Video_html),):
     dirName = urlSplit[-2]
     
 
-    pathn="D:/Game/xeditor.crx/JableTVDownload/videos/JAV"
-    path2="D:/Game/xeditor.crx/JableTVDownload/videos/JAV"
+
     htmlfile = cloudscraper.create_scraper(browser={
         'browser': 'firefox',
         'platform': 'android',
@@ -63,13 +62,11 @@ for x in range(0,len(Video_html),):
     videoName = soup.title.string
     videoName = videoName[:-33]
 
-    os.chdir(pathn)
     if not os.path.exists(dirName):
         os.makedirs(dirName)
     else :
         continue    
     folderPath = os.path.join(os.getcwd(), dirName)
-    os.chdir(path2)
     # In[4]:
     print(dirName)  
 

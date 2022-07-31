@@ -42,18 +42,20 @@ urlSplit = url.split('/')
 dirName = urlSplit[-2]
 print(dirName)
 
-pathn="D:/Game/xeditor.crx/JableTVDownload/videos/JAV"
-path2="D:/Game/xeditor.crx/JableTVDownload/videos/JAV"
-htmlfile = cloudscraper.create_scraper(browser='firefox', delay=10).get(url)
+htmlfile = cloudscraper.create_scraper(browser={
+        'browser': 'firefox',
+        'platform': 'android',
+        'desktop': False
+    }, delay=10).get(url)
 soup = BeautifulSoup(htmlfile.text,'html.parser')
 videoName = soup.title.string
 videoName = videoName[:-33]
 
-os.chdir(pathn)
+
 if not os.path.exists(dirName):
     os.makedirs(dirName)
 folderPath = os.path.join(os.getcwd(), dirName)
-os.chdir(path2)
+
 # In[4]:
 
 
@@ -144,5 +146,9 @@ result2 = re.search("og:image\" content=\"https://assets-cdn.jable.tv/contents/v
 result2 =  result2[0]
 result2 = result2[19:]
 
-html_file = cloudscraper.create_scraper(browser='firefox', delay=10).get(result2)
+html_file = cloudscraper.create_scraper(browser={
+        'browser': 'firefox',
+        'platform': 'android',
+        'desktop': False
+    }, delay=10).get(result2)
 get91_cover(html_file, folderPath,videoName)

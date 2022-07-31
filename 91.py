@@ -34,11 +34,14 @@ else:
 
 # 建立番號資料夾
 cookies={"language":'zh_ZH'}
-htmlfile = cloudscraper.create_scraper(browser='firefox', delay=10).get(url,cookies=cookies)
+htmlfile = cloudscraper.create_scraper(browser={
+        'browser': 'firefox',
+        'platform': 'android',
+        'desktop': False
+    }, delay=10).get(url,cookies=cookies)
 
 
-pathn="D:/Game/xeditor.crx/JableTVDownload/videos/91porn"
-path2="D:/Game/xeditor.crx/JableTVDownload/videos/JAV"
+
 soup = BeautifulSoup(htmlfile.text,'html.parser')
 
 
@@ -52,11 +55,11 @@ videoName = dirName
 
 
 
-os.chdir(pathn)
+
 if not os.path.exists(dirName):
     os.makedirs(dirName)
 folderPath = os.path.join(os.getcwd(), dirName)
-os.chdir(path2)
+
 
 
 
@@ -143,6 +146,10 @@ result2 = re.search("https://img.91p51.com/thumb/.+jpg", htmlfile.text)
 print(result2[0])
 
 
-html_file = cloudscraper.create_scraper(browser='firefox', delay=10).get(result2[0])
+html_file = cloudscraper.create_scraper(browser={
+        'browser': 'firefox',
+        'platform': 'android',
+        'desktop': False
+    }, delay=10).get(result2[0])
 
 get91_cover(html_file, folderPath,videoName)
