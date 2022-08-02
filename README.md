@@ -44,5 +44,6 @@ source jable/bin/activate. # MacOS
 
 可以直接爬取某個女優的全部影片(目前只支援jable)
 
-`$python jable_model.py https://jable.tv/models/7cadf3e484f607dc7d0f1c0e7a83b007/`
+`$python jable_model.py`
+再輸入女優頁面網址即可
 
