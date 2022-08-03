@@ -50,6 +50,7 @@ characters = "\nChinese homemade video"
 for x in range(len(characters)):
     dirName = dirName.replace(characters[x],"")
 videoName = dirName
+videoName=re.sub('[^\u4e00-\u9fa5]+','',videoName)
 
 
 
