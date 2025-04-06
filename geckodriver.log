@@ -1,0 +1,211 @@
+1743973401444	geckodriver	INFO	Listening on 127.0.0.1:8648
+1743973404502	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "8649" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilevsH1zS"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1743973404809	Marionette	INFO	Marionette enabled
+1743973404916	Marionette	INFO	Listening on port 8657
+WebDriver BiDi listening on ws://127.0.0.1:8649
+Read port: 8657
+1743973405055	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+1743973432736	geckodriver	INFO	Listening on 127.0.0.1:8810
+1743973435774	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "8811" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileLcXkes"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1743973436092	Marionette	INFO	Marionette enabled
+1743973436224	Marionette	INFO	Listening on port 8820
+WebDriver BiDi listening on ws://127.0.0.1:8811
+Read port: 8820
+1743973436541	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+1743973934528	geckodriver	INFO	Listening on 127.0.0.1:9349
+1743973937526	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "9352" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofiledV5JCm"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1743973938662	Marionette	INFO	Marionette enabled
+1743973938810	Marionette	INFO	Listening on port 9371
+WebDriver BiDi listening on ws://127.0.0.1:9352
+Read port: 9371
+1743973939026	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1743974338553	geckodriver	INFO	Listening on 127.0.0.1:9794
+1743974341578	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "9795" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileshr27m"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1743974341891	Marionette	INFO	Marionette enabled
+1743974342004	Marionette	INFO	Listening on port 9803
+WebDriver BiDi listening on ws://127.0.0.1:9795
+Read port: 9803
+1743974342178	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1743974378953	geckodriver	INFO	Listening on 127.0.0.1:9923
+1743974381404	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "9924" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileirCugM"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1743974381711	Marionette	INFO	Marionette enabled
+1743974381827	Marionette	INFO	Listening on port 9938
+WebDriver BiDi listening on ws://127.0.0.1:9924
+Read port: 9938
+1743974382010	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1743974622956	geckodriver	INFO	Listening on 127.0.0.1:10127
+1743974625396	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "101 ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilesToe5r"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1743974625710	Marionette	INFO	Marionette enabled
+1743974625820	Marionette	INFO	Listening on port 10135
+WebDriver BiDi listening on ws://127.0.0.1:10128
+Read port: 10135
+1743974625970	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1743975089279	geckodriver	INFO	Listening on 127.0.0.1:10534
+1743975092305	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "105 ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofile1GkGH3"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1743975092623	Marionette	INFO	Marionette enabled
+1743975092734	Marionette	INFO	Listening on port 10544
+WebDriver BiDi listening on ws://127.0.0.1:10535
+Read port: 10544
+1743975092892	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+1743975131739	geckodriver	INFO	Listening on 127.0.0.1:10634
+1743975134166	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "106 ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilecSuqIJ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1743975134529	Marionette	INFO	Marionette enabled
+1743975134666	Marionette	INFO	Listening on port 10644
+WebDriver BiDi listening on ws://127.0.0.1:10635
+Read port: 10644
+1743975134850	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1743975373470	geckodriver	INFO	Listening on 127.0.0.1:10845
+1743975375864	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "108 ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileOaDE6P"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1743975376203	Marionette	INFO	Marionette enabled
+1743975376379	Marionette	INFO	Listening on port 10853
+WebDriver BiDi listening on ws://127.0.0.1:10846
+Read port: 10853
+1743975376592	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1743976513928	geckodriver	INFO	Listening on 127.0.0.1:11971
+1743976516987	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "119 ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileG2xrmU"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1743976517572	Marionette	INFO	Marionette enabled
+1743976517682	Marionette	INFO	Listening on port 11979
+WebDriver BiDi listening on ws://127.0.0.1:11972
+Read port: 11979
+1743976517833	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+Exiting due to channel error.
+1743979059814	geckodriver	INFO	Listening on 127.0.0.1:2842
+1743979062468	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "2843" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileKl71Eb"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1743979062788	Marionette	INFO	Marionette enabled
+1743979062895	Marionette	INFO	Listening on port 2851
+WebDriver BiDi listening on ws://127.0.0.1:2843
+Read port: 2851
+1743979063037	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1743979508651	geckodriver	INFO	Listening on 127.0.0.1:3240
+1743979511122	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "3241" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileZHUT4E"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1743979511441	Marionette	INFO	Marionette enabled
+1743979511562	Marionette	INFO	Listening on port 3251
+WebDriver BiDi listening on ws://127.0.0.1:3241
+Read port: 3251
+1743979511762	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+Exiting due to channel error.
+Exiting due to channel error.
