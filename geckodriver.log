@@ -209,3 +209,1287 @@ JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_re
 JavaScript error: , line 0: uncaught exception: undefined
 Exiting due to channel error.
 Exiting due to channel error.
+1743980075917	geckodriver	INFO	Listening on 127.0.0.1:4551
+1743980078346	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "4552" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileZW99DN"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1743980078782	Marionette	INFO	Marionette enabled
+1743980078964	Marionette	INFO	Listening on port 4792
+WebDriver BiDi listening on ws://127.0.0.1:4552
+Read port: 4792
+1743980079207	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1743980746971	geckodriver	INFO	Listening on 127.0.0.1:5989
+1743980749449	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "5990" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilezwnTKs"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1743980749783	Marionette	INFO	Marionette enabled
+1743980749894	Marionette	INFO	Listening on port 5999
+WebDriver BiDi listening on ws://127.0.0.1:5990
+Read port: 5999
+1743980750053	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1744188191364	geckodriver	INFO	Listening on 127.0.0.1:7884
+1744188193754	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "7885" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileuImLOW"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1744188194468	Marionette	INFO	Marionette enabled
+1744188194597	Marionette	INFO	Listening on port 7900
+WebDriver BiDi listening on ws://127.0.0.1:7885
+Read port: 7900
+1744188194794	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+1744386049706	geckodriver	INFO	Listening on 127.0.0.1:4452
+1744386052039	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "4453" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileRghfyH"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1744386052785	Marionette	INFO	Marionette enabled
+1744386052899	Marionette	INFO	Listening on port 4478
+WebDriver BiDi listening on ws://127.0.0.1:4453
+Read port: 4478
+1744386053096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1744575130146	geckodriver	INFO	Listening on 127.0.0.1:4946
+1744575132699	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "4947" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileDNNzwj"
+*** You are running in headless mode.
+1744575144072	geckodriver	INFO	Listening on 127.0.0.1:4965
+1744575146242	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "4966" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileiejh5l"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1744575146550	Marionette	INFO	Marionette enabled
+1744575146671	Marionette	INFO	Listening on port 4981
+WebDriver BiDi listening on ws://127.0.0.1:4966
+Read port: 4981
+1744575146808	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1744749444798	geckodriver	INFO	Listening on 127.0.0.1:13929
+1744749447243	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "139 ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilenvTLoU"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1744749447639	Marionette	INFO	Marionette enabled
+1744749447745	Marionette	INFO	Listening on port 13940
+WebDriver BiDi listening on ws://127.0.0.1:13930
+Read port: 13940
+1744749447895	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1744833549026	geckodriver	INFO	Listening on 127.0.0.1:6283
+1744833551467	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "6284" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileLDjjOu"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1744833552107	Marionette	INFO	Marionette enabled
+1744833552232	Marionette	INFO	Listening on port 6295
+WebDriver BiDi listening on ws://127.0.0.1:6284
+Read port: 6295
+1744833552427	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+1744916980204	geckodriver	INFO	Listening on 127.0.0.1:12505
+1744916982680	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "125 ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileVtEqGx"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1744916983316	Marionette	INFO	Marionette enabled
+1744916983425	Marionette	INFO	Listening on port 12514
+WebDriver BiDi listening on ws://127.0.0.1:12506
+Read port: 12514
+1744916983576	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1745107295848	geckodriver	INFO	Listening on 127.0.0.1:9367
+1745107298338	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "9368" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileUFfRa3"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1745107299008	Marionette	INFO	Marionette enabled
+1745107299140	Marionette	INFO	Listening on port 9376
+Read port: 9376
+WebDriver BiDi listening on ws://127.0.0.1:9368
+1745107299221	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1745107318138	geckodriver	INFO	Listening on 127.0.0.1:9462
+1745107320665	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "9463" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileWx5cdm"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1745107320950	Marionette	INFO	Marionette enabled
+1745107321055	Marionette	INFO	Listening on port 9471
+WebDriver BiDi listening on ws://127.0.0.1:9463
+Read port: 9471
+1745107321195	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+Exiting due to channel error.
+Exiting due to channel error.
+1745523275416	geckodriver	INFO	Listening on 127.0.0.1:10879
+1745523277945	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "108 ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofile2UUFyT"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1745523278566	Marionette	INFO	Marionette enabled
+1745523278678	Marionette	INFO	Listening on port 10888
+WebDriver BiDi listening on ws://127.0.0.1:10880
+Read port: 10888
+1745523278838	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1745886841585	geckodriver	INFO	Listening on 127.0.0.1:12417
+1745886844001	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "124 ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilel5YDZn"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1745886844638	Marionette	INFO	Marionette enabled
+1745886844759	Marionette	INFO	Listening on port 12426
+WebDriver BiDi listening on ws://127.0.0.1:12418
+Read port: 12426
+1745886844939	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+1746157417963	geckodriver	INFO	Listening on 127.0.0.1:13613
+1746157420476	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "136 ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileLgt8p5"
+*** You are running in headless mode.
+1746157430542	geckodriver	INFO	Listening on 127.0.0.1:13627
+1746157432757	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "136 ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileBe047T"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1746157433171	Marionette	INFO	Marionette enabled
+1746157433687	Marionette	INFO	Listening on port 13649
+WebDriver BiDi listening on ws://127.0.0.1:13628
+Read port: 13649
+1746157433847	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+1746158330375	geckodriver	INFO	Listening on 127.0.0.1:2635
+1746158332810	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "2636" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileztk2OF"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1746158333454	Marionette	INFO	Marionette enabled
+1746158333566	Marionette	INFO	Listening on port 2644
+WebDriver BiDi listening on ws://127.0.0.1:2636
+Read port: 2644
+1746158333725	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1746533226280	geckodriver	INFO	Listening on 127.0.0.1:10606
+1746533228720	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "106 ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileSNh1kx"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1746533229043	Marionette	INFO	Marionette enabled
+1746533229158	Marionette	INFO	Listening on port 10629
+WebDriver BiDi listening on ws://127.0.0.1:10607
+Read port: 10629
+1746533229305	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+am Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "126 ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilesKKcvg"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1746533599097	Marionette	INFO	Marionette enabled
+1746533599261	Marionette	INFO	Listening on port 12663
+WebDriver BiDi listening on ws://127.0.0.1:12621
+Read port: 12663
+1746533599425	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+1747078878063	geckodriver	INFO	Listening on 127.0.0.1:6841
+1747078880452	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "6843" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofile0X7F7h"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1747078880883	Marionette	INFO	Marionette enabled
+1747078881029	Marionette	INFO	Listening on port 6862
+WebDriver BiDi listening on ws://127.0.0.1:6843
+Read port: 6862
+1747078881194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1747079335409	geckodriver	INFO	Listening on 127.0.0.1:9167
+1747079337859	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "9168" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileEsWCfJ"
+*** You are running in headless mode.
+1747080423924	geckodriver	INFO	Listening on 127.0.0.1:10368
+1747080426990	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "103 ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilePgb0dx"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1747080427585	Marionette	INFO	Marionette enabled
+1747080427690	Marionette	INFO	Listening on port 10376
+WebDriver BiDi listening on ws://127.0.0.1:10369
+Read port: 10376
+1747080427786	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1747080715622	geckodriver	INFO	Listening on 127.0.0.1:10665
+1747080718067	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "106 ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofile212Vt9"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1747080718369	Marionette	INFO	Marionette enabled
+1747080718489	Marionette	INFO	Listening on port 10673
+WebDriver BiDi listening on ws://127.0.0.1:10666
+Read port: 10673
+1747080718640	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+Exiting due to channel error.
+Exiting due to channel error.
+1747337405286	geckodriver	INFO	Listening on 127.0.0.1:12705
+1747337407715	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "127 ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileWhXUWf"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1747337408507	Marionette	INFO	Marionette enabled
+1747337408649	Marionette	INFO	Listening on port 12732
+WebDriver BiDi listening on ws://127.0.0.1:12707
+Read port: 12732
+1747337408836	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel errorExiting due to channel error.
+Exiting due to channel error.
+.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1747426589851	geckodriver	INFO	Listening on 127.0.0.1:11247
+1747426592274	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "112 ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilef9vXOH"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1747426592975	Marionette	INFO	Marionette enabled
+1747426593101	Marionette	INFO	Listening on port 11256
+WebDriver BiDi listening on ws://127.0.0.1:11248
+Read port: 11256
+1747426593257	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1747426627586	geckodriver	INFO	Listening on 127.0.0.1:11490
+1747426630016	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "114 ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilesvJSyf"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1747426630350	Marionette	INFO	Marionette enabled
+1747426630496	Marionette	INFO	Listening on port 11519
+WebDriver BiDi listening on ws://127.0.0.1:11491
+Read port: 11519
+1747426630645	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+less" "--remote-debugging-port" "119 ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileGg4NYq"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1747426675718	Marionette	INFO	Marionette enabled
+1747426675856	Marionette	INFO	Listening on port 11974
+WebDriver BiDi listening on ws://127.0.0.1:11935
+Read port: 11974
+1747426676032	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+am Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "125 ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileoWLmxX"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1747426724326	Marionette	INFO	Marionette enabled
+1747426724465	Marionette	INFO	Listening on port 12590
+WebDriver BiDi listening on ws://127.0.0.1:12539
+Read port: 12590
+1747426724625	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1747529988905	geckodriver	INFO	Listening on 127.0.0.1:1100
+1747529991463	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "1101" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileV79Q3z"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1747529992136	Marionette	INFO	Marionette enabled
+1747529992291	Marionette	INFO	Listening on port 1123
+WebDriver BiDi listening on ws://127.0.0.1:1101
+Read port: 1123
+1747529992464	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1747719777159	geckodriver	INFO	Listening on 127.0.0.1:1171
+1747719779607	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "1172" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofile0sZs9l"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1747719780077	Marionette	INFO	Marionette enabled
+1747719780185	Marionette	INFO	Listening on port 1218
+WebDriver BiDi listening on ws://127.0.0.1:1172
+Read port: 1218
+1747719780385	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1747909058894	geckodriver	INFO	Listening on 127.0.0.1:2023
+1747909061287	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "2024" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileiLaRtK"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1747909061639	Marionette	INFO	Marionette enabled
+1747909061754	Marionette	INFO	Listening on port 2039
+WebDriver BiDi listening on ws://127.0.0.1:2024
+Read port: 2039
+1747909061899	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1748497233813	geckodriver	INFO	Listening on 127.0.0.1:8833
+1748497236066	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "8834" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilewgaDQs"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1748497236443	Marionette	INFO	Marionette enabled
+1748497236573	Marionette	INFO	Listening on port 8843
+Read port: 8843
+WebDriver BiDi listening on ws://127.0.0.1:8834
+1748497236732	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://guidepaparazzisurface.com/bn.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1748808795064	geckodriver	INFO	Listening on 127.0.0.1:10390
+1748808798937	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "103 ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileoeMhXo"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1748808800044	Marionette	INFO	Marionette enabled
+1748808800585	Marionette	INFO	Listening on port 10518
+WebDriver BiDi listening on ws://127.0.0.1:10393
+Read port: 10518
+1748808800833	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://guidepaparazzisurface.com/bn.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel errorExiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1748980558995	geckodriver	INFO	Listening on 127.0.0.1:13075
+1748980562676	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "130 ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileZuYAGD"
+*** You are running in headless mode.
+1748980580013	geckodriver	INFO	Listening on 127.0.0.1:13146
+1748980582258	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "131 ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilehI3Ce4"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1748980582580	Marionette	INFO	Marionette enabled
+1748980582696	Marionette	INFO	Listening on port 13161
+WebDriver BiDi listening on ws://127.0.0.1:13147
+Read port: 13161
+1748980582850	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://guidepaparazzisurface.com/bn.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1748980587688	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1749350993700	geckodriver	INFO	Listening on 127.0.0.1:2753
+1749350996066	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "2754" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofiletoVAA0"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1749350996843	Marionette	INFO	Marionette enabled
+1749350997023	Marionette	INFO	Listening on port 2777
+WebDriver BiDi listening on ws://127.0.0.1:2754
+Read port: 2777
+1749350997177	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://guidepaparazzisurface.com/bn.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1749351003423	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1749743006504	geckodriver	INFO	Listening on 127.0.0.1:1756
+1749743010508	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "1757" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilejvUkG9"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1749743011010	Marionette	INFO	Marionette enabled
+1749743011171	Marionette	INFO	Listening on port 1801
+WebDriver BiDi listening on ws://127.0.0.1:1757
+Read port: 1801
+1749743011326	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://guidepaparazzisurface.com/bn.js1749743019449	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exExiting due to channel error.
+Exiting due to channel error.
+" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileuNT7OA"
+*** You are running in headless mod[Child 5904, MediaDecoderStateMachine #1] WARNING: Decoder=1fa10b5b100 Decode error: NS_ERROR_DOM_MEDIA_CANCELED (0x806e000a) - RefPtr<MediaSourceTrackDemuxer::SeekPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoSeek(const TimeUnit &): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:168
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 432))
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move `C:\Users\wangj\AppData\Local\Temp\rust_mozprofilejvUkG9\bookmarkbackups\bookmarks-2025-06-13_10_LR8zlXoKdxpLFR2UVy-k_nf_3UF04MRSHOWwZsozDM0=.jsonlz4' to `C:\Users\wangj\AppData\Local\Temp\rust_mozprofilejvUkG9\bookmarkbackups\bookmarks-2025-06-18_10_LR8zlXoKdxpLFR2UVy-k_nf_3UF04MRSHOWwZsozDM0=.jsonlz4': source file does not exist (NS_ERROR_FILE_NOT_FOUND)
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 432))
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+for the media resource was aborted by the user agent at the user's request.
+[Child 31048, MediaDecoderStateMachine #1] WARNING: Decoder=2abdde7d400 Decode error: NS_ERROR_DOM_MEDIA_CANCELED (0x806e000a) - RefPtr<MediaSourceTrackDemuxer::SeekPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoSeek(const TimeUnit &): manager is detached.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:168
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1750093273270	geckodriver	INFO	Listening on 127.0.0.1:14792
+1750093276032	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "147 ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileOsMBPt"
+*** You are running in headless mode.
+1750093474004	geckodriver	INFO	Listening on 127.0.0.1:14928
+1750093476390	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "149 ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileYAvsph"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1750093476752	Marionette	INFO	Marionette enabled
+1750093476881	Marionette	INFO	Listening on port 14936
+WebDriver BiDi listening on ws://127.0.0.1:14929
+Read port: 14936
+1750093477030	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+1750093481145	geckodriver	INFO	Listening on 127.0.0.1:14984
+1750093483557	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "149 ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+ettings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1750093484145	Marionette	INFO	Marionette enabled
+1750093484309	Marionette	INFO	Listening on port 1052
+WebDriver BiDi listening on ws://127.0.0.1:14985
+Read port: 1052
+1750093484504	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://guidepaparazzisurface.com/bn.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+ox.exe" "--marionette" "--headless" "--remote-debugging-port" "1255" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileOEDS0u"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1750093506287	Marionette	INFO	Marionette enabled
+1750093506465	Marionette	INFO	Listening on port 1296
+WebDriver BiDi listening on ws://127.0.0.1:1255
+Read port: 1296
+1750093506693	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://guidepaparazzisurface.com/bn.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+1750093513310	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1750094141841	geckodriver	INFO	Listening on 127.0.0.1:7556
+1750094144224	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "7557" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilemt8nl7"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1750094145137	Marionette	INFO	Marionette enabled
+1750094145324	Marionette	INFO	Listening on port 7596
+WebDriver BiDi listening on ws://127.0.0.1:7557
+Read port: 7596
+1750094145495	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://guidepaparazzisurface.com/bn.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1750184860168	geckodriver	INFO	Listening on 127.0.0.1:13235
+1750184862324	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "132 ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofile4bZOn3"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1750184863035	Marionette	INFO	Marionette enabled
+1750184863180	Marionette	INFO	Listening on port 13247
+WebDriver BiDi listening on ws://127.0.0.1:13236
+Read port: 13247
+1750184863339	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://guidepaparazzisurface.com/bn.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1750793184825	geckodriver	INFO	Listening on 127.0.0.1:2175
+1750793187267	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "2176" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileRIl4Pq"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1750793187998	Marionette	INFO	Marionette enabled
+1750793188137	Marionette	INFO	Listening on port 2195
+WebDriver BiDi listening on ws://127.0.0.1:2176
+Read port: 2195
+1750793188287	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+1750795950321	geckodriver	INFO	Listening on 127.0.0.1:3589
+1750795952886	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "3590" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileV1lyul"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1750795953207	Marionette	INFO	Marionette enabled
+1750795953310	Marionette	INFO	Listening on port 3607
+WebDriver BiDi listening on ws://127.0.0.1:3590
+Read port: 3607
+1750795953455	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+1750795957627	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1750860520472	geckodriver	INFO	Listening on 127.0.0.1:9037
+1750860522991	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "9038" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileC1FQre"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1750860523696	Marionette	INFO	Marionette enabled
+1750860523827	Marionette	INFO	Listening on port 9048
+WebDriver BiDi listening on ws://127.0.0.1:9038
+Read port: 9048
+1750860523959	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1750860530017	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+m Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "9439" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileJBUrvh"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1750860585732	Marionette	INFO	Marionette enabled
+1750860585837	Marionette	INFO	Listening on port 9456
+WebDriver BiDi listening on ws://127.0.0.1:9439
+Read port: 9456
+1750860585955	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+1750860590221	geckodriver	INFO	Listening on 127.0.0.1:9525
+1750860592563	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "9526" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileVKlJavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+ette	INFO	Marionette enabled
+1750860593019	Marionette	INFO	Listening on port 9564
+WebDriver BiDi listening on ws://127.0.0.1:9526
+Read port: 9564
+1750860593143	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+1750860598113	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+am Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "132 ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileoNFczD"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1750861238995	Marionette	INFO	Marionette enabled
+1750861239388	Marionette	INFO	Listening on port 13386
+WebDriver BiDi listening on ws://127.0.0.1:13222
+Read port: 13386
+1750861239666	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1751307938984	geckodriver	INFO	Listening on 127.0.0.1:10770
+1751307942403	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "107 ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileYfIce6"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1751307946630	Marionette	INFO	Marionette enabled
+1751307946986	Marionette	INFO	Listening on port 11030
+WebDriver BiDi listening on ws://127.0.0.1:10765
+Read port: 11030
+1751307947610	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+1751307960086	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is dJavaScript error: https://tsyndicate.com/iframes2/b16859bc8219424197e40c0646a3fd2f.html?categories={asian}, line 3: ReferenExiting due to channel error.
+Exiting due to channel error.
+Exiting due to chExiting due to channel error.
+[Child 26236,Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due toExiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+0801174bc32f64cca7021a6fcdea8ba522129bc8b79870378cf0a?userId=4c25683baa7e541ee7ce0014496c85471ee87c5671f43cd3d2de65eaed1cbb98&width=330px&height=185px&max-width=25%&limitAfterClosure=720, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+JavaScript warning: https://go.mnaspm.com/smartpop/bd123bcca610801174bc32f64cca7021a6fcdea8ba522129bc8b79870378cf0a?userId=4c25683baa7e541ee7ce0014496c85471ee87c5671f43cd3d2de65eaed1cbb98&width=330px&height=185px&max-width=25%&limitAfterClosure=720, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+[Child 26236, MediaDecoderStateMachine #1] WARNING: Decoder=11ad2aa1000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:168
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+
+JavaScript error: , line 0: uncaught exception: undefined
+1751307982243	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+ox.exe" "--marionette" "--headless" "--remote-debugging-port" "1843" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilec2fX0K"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1751308325731	Marionette	INFO	Marionette enabled
+1751308325870	Marionette	INFO	Listening on port 1910
+WebDriver BiDi listening on ws://127.0.0.1:1843
+Read port: 1910
+1751308326013	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript error: https://cdn.tapioni.com/asg_embed.js, line 1: TypeError: can't access property "value", t[O(...)] is undefined
+JavaScript error: https://jable.tv/videos/sone-775/, line 569: ReferenceError: Hls is not defined
+JavaScript error: https://cdn.tapioni.com/asg_embed.js, line 1: TypeError: can't access property "value", t[O(...)] is undefined
+JavaScript error: https://cdn.tapioni.com/asg_embed.js, line 1: TypeError: can't access property "value", t[O(...)] is undefined
+JavaScript error: https://cdn.tapioni.com/asg_embed.js, line 1: TypeError: can't access property "value", t[O(...)] is undefined
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1751308543143	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1751309830614	geckodriver	INFO	Listening on 127.0.0.1:12014
+1751309833007	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "120 ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileKSrvmT"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1751309833383	Marionette	INFO	Marionette enabled
+1751309833506	Marionette	INFO	Listening on port 12034
+WebDriver BiDi listening on ws://127.0.0.1:12015
+Read port: 12034
+1751309833625	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+[Parent 23660, IPC I/O Parent] WARNING: Failed to launch tab subprocess @SB::LA::SpawnTarget (Error:-2147024894): file /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:804
+[Parent 23660, IPC I/O Parent] WARNING: Failed to launch tab subprocess @SB::LA::SpawnTarget (Error:-2147024894): file /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:804
+[Parent 23660, IPC I/O Parent] WARNING: Failed to launch tab subprocess @SB::LA::SpawnTarget (Error:-2147024894): file /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:804
+[Parent 23660, IPC I/O Parent] WARNING: Failed to launch tab subprocess @SB::LA::SpawnTarget (Error:-2147024894): file /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:804
+Exiting due to channel error.
+Listening on 127.0.0.1:12049
+1751309847470	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "120 ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileqbuDBd"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1751309847961	Marionette	INFO	Marionette enabled
+1751309848082	Marionette	INFO	Listening on port 12058
+WebDriver BiDi listening on ws://127.0.0.1:12050
+Read port: 12058
+1751309848214	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://guidepaparazzisurface.com/bn.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1751309854275	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+[Child 2596, MediaDecoderStateMachine #1] WARNING: Decoder=21013987200 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:168
+JavaScript warning: https://creative.reebr.com/static/819a327a/s/widgets/v4/Universal/main.2099e0693ba985f2f9ae.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+JavaScript warning: https://creative.reebr.com/static/819a327a/s/widgets/v4/Universal/main.2099e0693ba985f2f9ae.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1751309932316	geckodriver	INFO	Listening on 127.0.0.1:12156
+1751309934838	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "121 ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileN3YLV7"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1751309935157	Marionette	INFO	Marionette enabled
+1751309935279	Marionette	INFO	Listening on port 12165
+WebDriver BiDi listening on ws://127.0.0.1:12157
+Read port: 12165
+1751309935417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://guidepaparazzisurface.com/bn.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1751309963020	geckodriver	INFO	Listening on 127.0.0.1:12284
+1751309965571	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "122 ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileQqPghx"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1751309965869	Marionette	INFO	Marionette enabled
+1751309965980	Marionette	INFO	Listening on port 12292
+WebDriver BiDi listening on ws://127.0.0.1:12285
+Read port: 12292
+1751309966130	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://guidepaparazzisurface.com/bn.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+51309981658	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "123 ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofiletMndwE"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1751309981982	Marionette	INFO	Marionette enabled
+1751309982098	Marionette	INFO	Listening on port 12413
+WebDriver BiDi listening on ws://127.0.0.1:12390
+Read port: 12413
+1751309982257	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://guidepaparazzisurface.com/bn.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+1751309987621	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1751396135591	geckodriver	INFO	Listening on 127.0.0.1:8410
+1751396137981	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "8411" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilecZj3wc"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1751396138792	Marionette	INFO	Marionette enabled
+1751396138938	Marionette	INFO	Listening on port 8424
+WebDriver BiDi listening on ws://127.0.0.1:8411
+Read port: 8424
+1751396139091	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+1751396143798	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1751574265477	geckodriver	INFO	Listening on 127.0.0.1:4868
+1751574267908	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "4869" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilerajJ6g"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1751574268651	Marionette	INFO	Marionette enabled
+1751574268798	Marionette	INFO	Listening on port 4882
+WebDriver BiDi listening on ws://127.0.0.1:4869
+Read port: 4882
+1751574268906	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+1751574273151	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1751574274821	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1751679984712	geckodriver	INFO	Listening on 127.0.0.1:3506
+1751679987139	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "3507" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilebDriL0"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1751679987865	Marionette	INFO	Marionette enabled
+1751679988000	Marionette	INFO	Listening on port 3522
+WebDriver BiDi listening on ws://127.0.0.1:3507
+Read port: 3522
+1751679988236	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+1751679992648	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1751922695853	geckodriver	INFO	Listening on 127.0.0.1:9725
+1751922698264	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "9726" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileOzUbmw"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1751922698635	Marionette	INFO	Marionette enabled
+1751922698772	Marionette	INFO	Listening on port 9738
+WebDriver BiDi listening on ws://127.0.0.1:9726
+Read port: 9738
+1751922698981	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1751922703753	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1751922704296	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1752087713575	geckodriver	INFO	Listening on 127.0.0.1:4809
+1752087715970	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "4810" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilegxlGBz"
+*** You are running in headless mode.
+1752087738200	geckodriver	INFO	Listening on 127.0.0.1:4844
+1752087740687	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "4845" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileOJtOJo"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1752087741008	Marionette	INFO	Marionette enabled
+1752087741120	Marionette	INFO	Listening on port 4852
+WebDriver BiDi listening on ws://127.0.0.1:4845
+Read port: 4852
+1752087741251	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+1752087745168	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1752209351767	geckodriver	INFO	Listening on 127.0.0.1:10451
+1752209354196	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "104 ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileyw4Qwc"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1752209354771	Marionette	INFO	Marionette enabled
+1752209354913	Marionette	INFO	Listening on port 10460
+WebDriver BiDi listening on ws://127.0.0.1:10452
+Read port: 10460
+1752209355093	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+1752209360724	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1752209361404	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1752256485560	geckodriver	INFO	Listening on 127.0.0.1:2965
+1752256487847	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "2966" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilecTWqy1"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1752256488896	Marionette	INFO	Marionette enabled
+1752256489051	Marionette	INFO	Listening on port 2993
+WebDriver BiDi listening on ws://127.0.0.1:2966
+Read port: 2993
+1752256489271	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+1752256496409	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1752256496994	Marionette	WARN	Ignoring event 'DOMContentLoaded' Exiting due to channel error.
+Exiting due to channel errorExiting due to channel error.
+Exiting due to channel error.
+1752359095590	geckodriver	INFO	Listening on 127.0.0.1:9407
+1752359098004	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "9408" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilewuOiry"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1752359098761	Marionette	INFO	Marionette enabled
+1752359098914	Marionette	INFO	Listening on port 9416
+WebDriver BiDi listening on ws://127.0.0.1:9408
+Read port: 9416
+1752359099079	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1752359103722	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1752359104448	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1753206537952	geckodriver	INFO	Listening on 127.0.0.1:7253
+1753206540386	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "7254" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileXN2kth"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1753206541288	Marionette	INFO	Marionette enabled
+1753206541456	Marionette	INFO	Listening on port 7274
+Read port: 7274
+WebDriver BiDi listening on ws://127.0.0.1:7254
+1753206541644	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://guidepaparazzisurface.com/bn.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1753206552740	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+FO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "7354" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofile5aNXWu"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1753206558762	Marionette	INFO	Marionette enabled
+1753206558911	Marionette	INFO	Listening on port 7378
+WebDriver BiDi listening on ws://127.0.0.1:7354
+Read port: 7378
+1753206559040	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://guidepaparazzisurface.com/bn.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+1753206564816	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1753300226185	geckodriver	INFO	Listening on 127.0.0.1:11174
+1753300228442	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "111 ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileBfqnlE"
+*** You are running in headless mode.
+1753300262545	geckodriver	INFO	Listening on 127.0.0.1:11215
+1753300264992	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "112 ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilesrawvq"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1753300265310	Marionette	INFO	Marionette enabled
+1753300265416	Marionette	INFO	Listening on port 11224
+WebDriver BiDi listening on ws://127.0.0.1:11216
+Read port: 11224
+1753300265556	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1753300267850	geckodriver	INFO	Listening on 127.0.0.1:11232
+1753300270310	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "112 ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilejMekni"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remo1753300270532	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.DyJavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+Exiting due to channel error.
+Exiting due to channel error.
+r, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://guidepaparazzisurface.com/bn.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+1753300276822	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+[Child 41744, MediaDecoderStateMachine #1] WARNING: Decoder=24b145def00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:168
+Exiting due to channel error.
+JavaScript warning: https://go.mnaspm.com/smartpop/bd123bcca610801174bc32f64cca7021a6fcdea8ba522129bc8b79870378cf0a?userId=4c25683baa7e541ee7ce0014496c85471ee87c5671f43cd3d2de65eaed1cbb98&width=330px&height=185px&max-width=25%&limitAfterClosure=720, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+JavaScript warning: https://go.mnaspm.com/smartpop/bd123bcca610801174bc32f64cca7021a6fcdea8ba522129bc8b79870378cf0a?userId=4c25683baa7e541ee7ce0014496c85471ee87c5671f43cd3d2de65eaed1cbb98&width=330px&height=185px&max-width=25%&limitAfterClosure=720, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+https://guidepaparazzisurface.com/bn.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1753300472667	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+less" "--remote-debugging-port" "133 ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileVCJeTg"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1753300492105	Marionette	INFO	Marionette enabled
+1753300492234	Marionette	INFO	Listening on port 13413
+WebDriver BiDi listening on ws://127.0.0.1:13347
+Read port: 13413
+1753300492383	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://guidepaparazzisurface.com/bn.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1753300521806	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Exiting due to channel error.
+Exiting due to channel error.
+1753553081537	geckodriver	INFO	Listening on 127.0.0.1:8693
+1753553083889	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "8694" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofiledBZ0NX"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1753553084635	Marionette	INFO	Marionette enabled
+1753553084753	Marionette	INFO	Listening on port 8702
+WebDriver BiDi listening on ws://127.0.0.1:8694
+Read port: 8702
+1753553084922	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://guidepaparazzisurface.com/bn.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1753553091103	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+ess" "--remote-debugging-port" "8934" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofileAGl3Q9"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1753553128776	Marionette	INFO	Marionette enabled
+1753553128894	Marionette	INFO	Listening on port 8958
+WebDriver BiDi listening on ws://127.0.0.1:8934
+Read port: 8958
+1753553129066	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://guidepaparazzisurface.com/bn.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1753553134779	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
