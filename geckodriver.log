@@ -1493,3 +1493,27 @@ JavaScript warning: https://guidepaparazzisurface.com/bn.js, line 1: WEBGL_debug
 JavaScript error: , line 0: uncaught exception: undefined
 JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 Exiting due to channel error.
+1753563028548	geckodriver	INFO	Listening on 127.0.0.1:9724
+1753563031581	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "9725" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wangj\\AppData\\Local\\Temp\\rust_mozprofilevOyK6g"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1753563032261	Marionette	INFO	Marionette enabled
+1753563032431	Marionette	INFO	Listening on port 9733
+WebDriver BiDi listening on ws://127.0.0.1:9725
+Read port: 9733
+1753563032559	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIWinTaskbar.getTaskbarProgress]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource:///modules/DownloadsTaskbar.sys.mjs :: _attachIndicator :: line 127"  data: no]
+JavaScript warning: https://cdn.tapioni.com/asg_embed.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+1753563037654	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

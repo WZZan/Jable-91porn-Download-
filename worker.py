@@ -1,4 +1,10 @@
 import os
+import re
+import ssl
+import m3u8
+import urllib.request
+import requests
+import cloudscraper
 from PyQt5.QtCore import QThread
 from signals import WorkerSignals
 from crawler import CustomCrawler
@@ -195,6 +201,292 @@ class DownloadWorker(QThread):
             self.report_progress(-1, f"错误: {str(e)}")
             raise e
     
+    def report_progress(self, progress, status_message):
+        """向主线程报告进度"""
+        if self.is_running:
+            self.signals.progress.emit(progress, status_message)
+    
+    def stop(self):
+        """停止下载进程"""
+        self.is_running = False
+        if self.crawler:
+            self.crawler.stop()
+
+class DownloadM3u8Worker(QThread):
+    """专门下载m3u8视频的工作线程"""
+    def __init__(self, url, video_name="", path_type="jav"):
+        super().__init__()
+        self.url = url
+        self.video_name = video_name or "m3u8_video"
+        self.path_type = path_type  # "jav" 或 "91"
+        self.signals = WorkerSignals()
+        self.is_running = True
+        self.crawler = None
+
+    def run(self):
+        try:
+            if not self.is_running:
+                return
+                
+            # 调用主函数处理m3u8下载
+            self.download_m3u8_video(self.url)
+            
+            if self.is_running:
+                self.signals.finished.emit(self.url)
+        except Exception as e:
+            if self.is_running:
+                self.signals.error.emit(self.url, str(e))
+
+    def download_m3u8_video(self, m3u8_url):
+        """下载m3u8视频的主要函数"""
+        try:
+            self.report_progress(0, "准备下载m3u8视频...")
+            
+            # 导入必要的模块
+            import requests
+            import os
+            import re
+            import m3u8
+            import urllib.request
+            from Crypto.Cipher import AES
+            from config import headers
+            from merge import mergeMp4
+            from delete import deleteMp4
+            
+            # 验证URL是否为m3u8格式
+            if not (m3u8_url.endswith('.m3u8') or '.m3u8?' in m3u8_url):
+                self.report_progress(-1, "URL不是有效的m3u8链接")
+                return
+            
+            self.report_progress(5, "验证m3u8链接...")
+            
+            # 从URL中提取基础信息
+            m3u8_url_parts = m3u8_url.split('/')
+            m3u8_url_parts.pop(-1)  # 移除文件名
+            download_base_url = '/'.join(m3u8_url_parts)
+            
+            # 清理视频名称
+            video_name = re.sub(r'[\\/*?:"<>|]', '_', self.video_name)
+            
+            self.report_progress(10, f"准备下载: {video_name}")
+            
+            # 从视频名称中提取番号作为文件夹名
+            folder_name = self.extract_folder_name(video_name)
+            
+            # 根据路径类型确定存储路径
+            if self.path_type == "91":
+                base_save_paths = [
+                    "J:/xeditor/videos/shortvideos",
+                    "D:/Game/xeditor.crx/JableTVDownload/videos/shortvideos",
+                    "E:/xeditor/videos/shortvideos"
+                ]
+                self.report_progress(11, f"使用91视频路径保存")
+            else:  # 默认使用 jav 路径
+                base_save_paths = [
+                    "J:/xeditor/videos/JAV",
+                    "E:/xeditor/videos/JAV",
+                    "D:/Game/xeditor.crx/JableTVDownload/videos/JAV"
+                ]
+                self.report_progress(11, f"使用JAV路径保存")
+            
+            base_folder_path = None
+            for path in base_save_paths:
+                try:
+                    if not os.path.exists(path):
+                        os.makedirs(path)
+                    base_folder_path = path
+                    break
+                except:
+                    continue
+            
+            if not base_folder_path:
+                base_folder_path = base_save_paths[-1]
+                os.makedirs(base_folder_path, exist_ok=True)
+            
+            # 创建番号文件夹
+            folder_path = os.path.join(base_folder_path, folder_name)
+            if not os.path.exists(folder_path):
+                os.makedirs(folder_path)
+                self.report_progress(12, f"创建文件夹: {folder_name}")
+            else:
+                self.report_progress(12, f"使用现有文件夹: {folder_name}")
+            
+            # 检查视频是否已存在
+            final_video_path = os.path.join(folder_path, video_name + '.mp4')
+            if os.path.exists(final_video_path):
+                self.report_progress(100, "视频已存在，跳过下载")
+                return
+            
+            self.report_progress(15, "下载m3u8文件...")
+            
+            # 下载m3u8文件
+            m3u8_file = os.path.join(folder_path, video_name + '.m3u8')
+            
+            try:
+                response = requests.get(m3u8_url, headers=headers, timeout=30)
+                response.raise_for_status()
+                with open(m3u8_file, 'wb') as f:
+                    f.write(response.content)
+            except Exception as e:
+                self.report_progress(-1, f"下载m3u8文件失败: {str(e)}")
+                try:
+                    urllib.request.urlretrieve(m3u8_url, m3u8_file)
+                except:
+                    raise e
+            
+            self.report_progress(20, "解析m3u8文件...")
+            
+            # 解析m3u8文件
+            try:
+                m3u8_obj = m3u8.load(m3u8_file)
+                
+                # 检查是否是主播放列表（包含子播放列表）
+                if m3u8_obj.playlists:
+                    self.report_progress(22, "检测到主播放列表，选择最高质量...")
+                    
+                    # 选择最高带宽的播放列表
+                    best_playlist = max(m3u8_obj.playlists, key=lambda p: p.stream_info.bandwidth if p.stream_info.bandwidth else 0)
+                    
+                    # 构建子播放列表URL
+                    if best_playlist.uri.startswith('http'):
+                        sub_m3u8_url = best_playlist.uri
+                    else:
+                        sub_m3u8_url = download_base_url + '/' + best_playlist.uri
+                    
+                    self.report_progress(23, f"下载子播放列表: {best_playlist.uri}")
+                    
+                    # 下载子播放列表
+                    response = requests.get(sub_m3u8_url, headers=headers, timeout=30)
+                    response.raise_for_status()
+                    
+                    # 保存并重新加载子播放列表
+                    with open(m3u8_file, 'wb') as f:
+                        f.write(response.content)
+                    
+                    m3u8_obj = m3u8.load(m3u8_file)
+                    
+                    # 更新base_url为子播放列表的URL
+                    sub_url_parts = sub_m3u8_url.split('/')
+                    sub_url_parts.pop(-1)
+                    download_base_url = '/'.join(sub_url_parts)
+                
+                # 获取加密信息
+                m3u8_key_uri = ''
+                m3u8_iv = ''
+                
+                for key in m3u8_obj.keys:
+                    if key:
+                        m3u8_key_uri = key.uri
+                        m3u8_iv = key.iv
+                        break
+                
+                # 获取所有ts文件URL
+                ts_list = []
+                for seg in m3u8_obj.segments:
+                    if seg.uri.startswith('http'):
+                        ts_url = seg.uri
+                    else:
+                        ts_url = download_base_url + '/' + seg.uri
+                    ts_list.append(ts_url)
+                
+                if not ts_list:
+                    self.report_progress(-1, "未找到视频片段")
+                    return
+                
+                self.report_progress(24, f"找到 {len(ts_list)} 个视频片段")
+                
+                # 处理加密
+                decryptor = None
+                if m3u8_key_uri:
+                    self.report_progress(25, "处理加密...")
+                    
+                    if m3u8_key_uri.startswith('http'):
+                        key_url = m3u8_key_uri
+                    else:
+                        key_url = download_base_url + '/' + m3u8_key_uri
+                    
+                    response = requests.get(key_url, headers=headers, timeout=10)
+                    content_key = response.content
+                    
+                    vt = m3u8_iv.replace("0x", "")[:16].encode() if m3u8_iv else b'\0' * 16
+                    
+                    decryptor = AES.new(content_key, AES.MODE_CBC, vt)
+                
+                # 删除m3u8文件
+                if os.path.exists(m3u8_file):
+                    os.remove(m3u8_file)
+                    
+                self.report_progress(30, "开始下载视频片段...")
+                
+                # 使用自定义爬虫下载
+                self.crawler = CustomCrawler(self.report_progress)
+                self.crawler.startCrawl(decryptor, folder_path, ts_list)
+                
+                if not self.is_running:
+                    return
+                    
+                self.report_progress(95, "合并视频片段...")
+                
+                try:
+                    mergeMp4(folder_path, ts_list, video_name)
+                except Exception as e:
+                    self.report_progress(-1, f"合并失败: {str(e)}")
+                    raise e
+                
+                self.report_progress(98, "清理临时文件...")
+                try:
+                    deleteMp4(folder_path, video_name)
+                except Exception as e:
+                    self.report_progress(-1, f"清理文件失败: {str(e)}")
+                
+            except Exception as e:
+                self.report_progress(-1, f"处理m3u8文件失败: {str(e)}")
+                raise e
+            
+            self.report_progress(100, "下载完成")
+            
+        except Exception as e:
+            self.report_progress(-1, f"下载m3u8视频时出错: {str(e)}")
+            raise e
+    
+    def extract_folder_name(self, video_name):
+        """从视频名称中提取番号作为文件夹名"""
+        try:
+            # 常见的番号格式模式
+            patterns = [
+                # 标准格式: ABC-123, ABCD-123
+                r'^([A-Z]{2,5}-\d{2,5})',
+                # 带数字的格式: 1ABC-123
+                r'^(\d[A-Z]{2,4}-\d{2,5})',
+                # FC2格式: FC2-PPV-123456, FC2-123456
+                r'^(FC2-(?:PPV-|)\d{4,7})',
+                # 纯数字格式: 123456 (6位或以上数字)
+                r'^(\d{6,})',
+                # 其他格式: ABC123, ABCD123 (字母+数字)
+                r'^([A-Z]{2,5}\d{2,5})',
+            ]
+            
+            for pattern in patterns:
+                match = re.search(pattern, video_name.upper())
+                if match:
+                    folder_name = match.group(1)
+                    self.report_progress(11, f"检测到番号: {folder_name}")
+                    return folder_name
+            
+            # 如果没有匹配到番号，使用视频名称的前20个字符作为文件夹名
+            if len(video_name) > 20:
+                # 确保在合适的位置截断，避免截断中文字符
+                folder_name = video_name[:20].rstrip()
+            else:
+                folder_name = video_name
+            self.report_progress(11, f"未检测到标准番号，使用: {folder_name}")
+            return folder_name
+            
+        except Exception as e:
+            # 如果提取失败，使用默认文件夹名
+            self.report_progress(11, f"番号提取失败，使用默认名称: {str(e)}")
+            return "default_m3u8"
+            
     def report_progress(self, progress, status_message):
         """向主线程报告进度"""
         if self.is_running:

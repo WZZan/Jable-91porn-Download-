@@ -15,9 +15,9 @@ def get_video_save_paths():
             "E:/xeditor/videos/JAV"
         ],
         "91": [
-            "J:/xeditor/videos/91",
+            "J:/xeditor/videos/shortvideos",
             "D:/Game/xeditor.crx/JableTVDownload/videos/shortvideos",
-            "E:/xeditor/videos/91"
+            "E:/xeditor/videos/shortvideos"
         ]
     }
     

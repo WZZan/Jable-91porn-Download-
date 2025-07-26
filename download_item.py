@@ -2,14 +2,16 @@ from PyQt5.QtWidgets import (QFrame, QVBoxLayout, QHBoxLayout,
                             QPushButton, QLabel, QProgressBar, 
                             QMessageBox)
 from PyQt5.QtCore import Qt
-from worker import DownloadWorker, Download91Worker
+from worker import DownloadWorker, Download91Worker, DownloadM3u8Worker
 
 class DownloadItem(QFrame):
     """表示单个下载项目的小部件"""
-    def __init__(self, url, platform="Jable", parent=None):
+    def __init__(self, url, platform="Jable", custom_filename="", path_type="jav", parent=None):
         super().__init__(parent)
         self.url = url
         self.platform = platform
+        self.custom_filename = custom_filename  # 添加自定义文件名属性
+        self.path_type = path_type  # 添加路径类型属性 (jav 或 91)
         self.initUI()
         
     def initUI(self):
@@ -30,6 +32,30 @@ class DownloadItem(QFrame):
         info_layout.addWidget(platform_label)
         info_layout.addWidget(url_display, 1)
         layout.addLayout(info_layout)
+        
+        # 如果是M3U8平台且有自定义文件名，显示文件名和路径类型
+        if self.platform == "M3U8" and self.custom_filename:
+            filename_layout = QHBoxLayout()
+            filename_label = QLabel("文件名:")
+            filename_label.setStyleSheet("font-weight: bold; color: #2d7d2d;")
+            filename_display = QLabel(self.custom_filename)
+            filename_display.setStyleSheet("color: #2d7d2d;")
+            
+            filename_layout.addWidget(filename_label)
+            filename_layout.addWidget(filename_display, 1)
+            layout.addLayout(filename_layout)
+            
+            # 显示路径类型
+            path_layout = QHBoxLayout()
+            path_label = QLabel("保存到:")
+            path_label.setStyleSheet("font-weight: bold; color: #7d4d2d;")
+            path_type_text = "JAV文件夹" if self.path_type == "jav" else "91视频文件夹"
+            path_display = QLabel(path_type_text)
+            path_display.setStyleSheet("color: #7d4d2d;")
+            
+            path_layout.addWidget(path_label)
+            path_layout.addWidget(path_display, 1)
+            layout.addLayout(path_layout)
         
         # 进度条和状态
         progress_layout = QHBoxLayout()
@@ -71,6 +97,13 @@ class DownloadItem(QFrame):
         # 根据平台选择不同的下载worker
         if self.platform == "91视频":
             self.worker = Download91Worker(self.url)
+        elif self.platform == "M3U8":
+            # 使用自定义文件名，如果没有则从URL中提取
+            video_name = self.custom_filename if self.custom_filename else (
+                self.url.split('/')[-1].split('.')[0] if '/' in self.url else "m3u8_video"
+            )
+            # 传递路径类型给M3U8Worker
+            self.worker = DownloadM3u8Worker(self.url, video_name, self.path_type)
         else:  # 默认为Jable
             self.worker = DownloadWorker(self.url)
             
