@@ -9,18 +9,27 @@ class CustomCrawler:
         self.progress_callback = progress_callback
         self.is_running = True
         
-    def scrape(self, ci, folderPath, downloadList, tsList, urls):
+    def scrape(self, ci, folderPath, downloadList, tsList, item):
         if not self.is_running:
             return
+        
+        if isinstance(item, tuple):
+            idx, url = item
+        else:
+            url = item
+            try:
+                idx = tsList.index(url)
+            except ValueError:
+                idx = 0  # 找不到就退回 0，實際不影響下載
             
-        fileName = urls.split('/')[-1][0:-3]
+        fileName = f"{idx:05d}"
         saveName = os.path.join(folderPath, fileName + ".mp4")
         total_files = len(tsList)
 
         if os.path.exists(saveName):
             # 跳过已下载
-            if urls in downloadList:
-                downloadList.remove(urls)
+            if item in downloadList:
+                downloadList.remove(item)
             completed = total_files-len(downloadList)
             progress = int((completed / total_files) * 100)
             
@@ -33,15 +42,15 @@ class CustomCrawler:
             from config import headers
             import requests
             
-            response = requests.get(urls, headers=headers, timeout=10)
+            response = requests.get(url, headers=headers, timeout=10)
             if response.status_code == 200:
                 content_ts = response.content
                 if ci:
                     content_ts = ci.decrypt(content_ts)  # 解码
                 with open(saveName, 'ab') as f:
                     f.write(content_ts)
-                if urls in downloadList:
-                    downloadList.remove(urls)
+                if item in downloadList:
+                    downloadList.remove(item)
                 completed = total_files - len(downloadList)
                 progress = int((completed / total_files) * 100)
                 
@@ -55,9 +64,10 @@ class CustomCrawler:
     def startCrawl(self, ci, folderPath, tsList):
         if not self.is_running:
             return
-            
+
+        indexed_download_list = list(enumerate(tsList))
         # 同时建立及启用 8 个执行线程
-        downloadList = copy.deepcopy(tsList)
+        downloadList = copy.deepcopy(indexed_download_list)
         round = 0
         
         while downloadList and self.is_running:
