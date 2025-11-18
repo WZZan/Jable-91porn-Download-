@@ -1,49 +1,56 @@
-# Jable-91porn-Download
+# Jable TV & 91Porn 影片下載器
 
-## 可以下載 Jable 和 91porn(m3u8) 的影片
+更新v2.0版本 - 使用PyQt5製作UI
 
-### vitual env
+## 新功能 (v2.1)
+
+### 🆕 M3U8直接下載功能
+- 新增專門的M3U8影片下載功能
+- 支援直接輸入M3U8鏈接進行下載
+- 自動處理加密M3U8檔案的解密
+- 支援多線程下載TS片段並自動合併
+
+## 支援的平台
+
+1. **Jable TV** - 日本成人影片網站
+2. **91Porn** - 中文成人影片網站  
+3. **M3U8** - 直接下載M3U8格式影片鏈接
+
+## 使用方法
+
+### 啟動應用程式
+```bash
+python app.pyw
 ```
-python3 -m venv jable
-source jable/bin/activate. # MacOS
+
+### 下載影片
+1. 在平台選擇器中選擇對應平台
+2. 輸入影片URL或M3U8鏈接
+3. 點擊「添加」按鈕
+4. 點擊「開始」按鈕開始下載
+
+### M3U8下載說明
+- 選擇「M3U8」平台
+- 輸入完整的.m3u8鏈接地址
+- 系統會自動下載並合併所有TS片段
+- 支援AES加密的M3U8檔案
+
+## 檔案結構
+```
+JableTVDownload/
+├── app.pyw              # 主應用程式
+├── worker.py            # 下載工作線程（包含M3U8Worker）
+├── main_window.py       # 主視窗UI
+├── download_item.py     # 下載項目元件
+├── crawler.py           # 自定義爬蟲
+├── utils.py            # 工具函數
+├── config.py           # 配置文件
+├── merge.py            # 影片合併
+├── delete.py           # 臨時檔案清理
+└── test_m3u8.py        # M3U8功能測試
 ```
 
-### requirements
-`pip install -r requirements.txt`
-
-安裝 [FFmpeg] (未安裝也能下載 但影片拖拉時間軸會有卡幀情況發生)
-
-### 執行jable程式(Execute) 或 91程式
-
-要下載哪個網頁的影片請選擇對的程式
-
-`python jable.py`    `python 91.py`
-
-### 輸入影片網址(Input video url)
-`https://jable.tv/videos/SSIS-423/`     
-`https://www.91porn.com/view_video.php?viewkey=328e7b2ad40e015f35d5&page=1&viewtype=basic&category=mf`  
-
-## #####選擇性使用(Optional use)#####
-
-### 使用FFmpeg轉檔優化 : 參數能自己調(Use FFmpeg encode) 
-`cd SSIS-423`  
-`ffmpeg -i SSIS-423.mp4 -c:v libx264 -b:v 3M -threads 5 -preset superfast f_SSIS-423.mp4`  
-  
-
-
-### Argument parser
-`$python jable.py -h`
-
-![](https://i.imgur.com/qgyS5sf.png)
-
-`$python jable.py --random True`
-
-可以直接下載隨機熱門影片
-
-![](https://i.imgur.com/dSsdB7Y.png)
-
-可以直接爬取某個女優的全部影片(目前只支援jable)
-
-`$python jable_model.py`
-再輸入女優頁面網址即可
-
+## 依賴套件
+```bash
+pip install PyQt5 requests beautifulsoup4 selenium m3u8 pycryptodome cloudscraper
+```
